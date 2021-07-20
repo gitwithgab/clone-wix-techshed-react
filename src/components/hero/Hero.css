@@ -1,0 +1,52 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.hero-container
+{
+    background-image: url("../../assets/img/electronics-carousel-1.png");
+    background-size: cover;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height: 75vh; 
+    width:100%;
+    align-items: center;
+    
+}
+
+.carousel-photos
+{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.hero-container>div:nth-child(1)
+{
+    padding-left: 200px;
+}
+
+.hero-container > div > p:nth-child(1)
+{
+    background-color: red;
+    color:var(--secondary-txt-color);
+    width:140px;
+    height:30px;
+    font-weight: 100;
+    padding:5px;
+   
+}
+
+.hero-container h1
+{
+    font-size: 3.5rem;
+}
+
+.hero-container > div> p
+{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}

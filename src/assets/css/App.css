@@ -1,0 +1,418 @@
+:root
+{
+    --primary-bg-color:white;
+    --secondary-bg-color:#edecec;
+    --tertiary-bg-color:black;
+
+    --primary-txt-color:black;
+    --secondary-txt-color:white;
+    --tertiary-txt-color:#7620ff;
+
+    --primary-btn-bg-color:#7620ff;
+    --secondary-btn-bg-color:black;
+}
+
+
+/*CSS reset*/
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+/*UTILITIES  CLASSES*/
+
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .11px;
+    background-color: var(--secondary-bg-color);
+    width:auto;
+}
+
+img
+{
+    max-width: 1200px;
+}
+
+button
+{
+    background-color: var(--primary-btn-bg-color);
+    color: var(--secondary-txt-color);
+    font-weight: 100;
+    width: 140px;
+    height:40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    border-style:solid ;
+    border-color: var(--primary-btn-bg-color);
+    cursor: pointer;
+}
+
+
+
+
+/***********DEALS & JUST IN***************/
+.deals-just-in
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:30px;
+    height: 400px;
+    color:var(--secondary-txt-color);
+    margin: 30px 0 30px 0;
+}
+
+.deals-just-in p
+{
+    font-weight: 100;
+    font-size: 1rem;
+    
+}
+
+.deals-just-in button
+{
+    background-color: var(--secondary-bg-color);
+    color:var(--primary-txt-color);
+    border:solid;
+    border-color: var(--secondary-bg-color);
+    width: 120px;
+    height:35px;
+}
+
+#holiday-deals
+{
+    background-image:url("../img/electronics-column-1.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+}
+
+#just-in
+{
+    background-image:url("../img/electronics-column-2.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right:30px;
+}
+
+
+/***********BENEFITS*********************/
+.benefits
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    background-color: var(--primary-bg-color);
+    height:150px;
+    padding-top: 50px;
+    margin: 0 30px 30px 30px;
+}
+
+
+/***********BEST SELLERS*****************/
+.best-sellers
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-color: var(--primary-bg-color);
+    margin: 0 30px 30px 30px;
+    height:500px;
+
+}
+
+.best-sellers h4
+{
+    font-size: 2rem;
+}
+
+.best-sellers div
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.best-sellers>div>div
+{
+    display:grid;
+    grid-template-columns: 1fr;
+
+}
+
+.best-sellers img
+{
+    width:150px;
+   
+}
+
+/**********SHOP BY CATEGORY*************/
+.shop-by-category
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--primary-bg-color);
+    justify-items: center;
+    margin: 0 30px 30px 30px;
+    height:710px;
+}
+
+.shop-by-category h4
+{
+    font-size: 2rem;
+    margin: 90px 0 30px 0;
+}
+
+.shop-by-category h6
+{
+    font-size: 1rem;
+}
+
+.shop-by-category>div
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.shop-by-category img
+{
+    height:130px;
+    border-radius: 50%;
+    margin: 15px 50px 20px 0 ;
+}
+
+/**********BEST PRICE******************/
+.best-price
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: right;
+    margin: 0 30px 30px 30px;
+    height:600px;
+    background-image: url("../img/electronics-background-1.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#diag-line
+{
+    background-color: white;
+    width:200px;
+    transform: skew(20deg);
+}
+
+.best-price div
+{
+    background-color: white;
+    width: 50%;
+}
+
+
+/***********ON SALE ********************/
+.on-sale
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-color: var(--primary-bg-color);
+    margin: 0 30px 30px 30px;
+    height:690px;
+}
+
+
+.on-sale h4
+{
+    font-size: 2rem;
+}
+
+.on-sale div
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.on-sale>div>div
+{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+/***********TODAY'S SPECIAL**************/
+.todays-special
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: left;
+    margin: 0 30px 30px 30px;
+    height:600px;
+    background-image: url("../img/electronics-drone-2.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.todays-special div
+{
+    background-color: white;
+    width: 50%;
+}
+
+
+/************BRANDS**********************/
+.brands
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 0 30px 30px 30px;
+    height:300px;
+    background-color: var(--primary-bg-color);
+}
+
+.brands h4
+{
+    font-size: 2rem;
+}
+
+.brands>div
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-self: center;
+}
+
+.brands img
+{
+    width: 120px;
+}
+
+/***********NEWSLETTER****************/
+.newsletter
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 0 30px 70px 30px;
+    height:270px;
+    background-color: var(--tertiary-txt-color);
+    color:white;
+}
+
+.newsletter h4
+{
+    font-size: 2rem;
+}
+.newsletter input
+{
+    width: 250px;
+    height:40px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px;
+    border-style:solid;
+    border-color: var(--secondary-bg-color);
+    padding-left: 20px;
+}
+
+.newsletter button
+{
+    background-color: black;
+}
+
+
+/***********HELP CENTER*****************/
+.help-center
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: left;
+    margin: 30px 30px 30px 30px;
+    height:450px;
+    background-image: url("../img/electronics-headphones-1.png");
+    background-position: right; 
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.help-center div
+{
+    background-color: black;
+    color: white;
+    width:40%;
+}
+
+
+/***********FOOTER******************/
+footer
+{
+    background-color: white;
+    margin: 30px 30px 0px 30px;
+}
+
+
+/***********ACCEPTED PAYMENTS************/
+.general
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+
+}
+
+#social-links li 
+{
+    display: inline-block;
+    padding-right: 30px;
+    color:var(--primary-txt-color);
+}
+
+#social-links a
+{
+    color:var(--primary-txt-color);
+    font-size:1rem;
+}
+
+.acc-payments
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items:center;
+    margin: 20px 0 20px 0;
+}
+
+.acc-payments>p
+{
+    margin: 60px 40px;
+}
+
+.acc-payments img
+{
+    height:50px;
+    width:auto;
+    padding-right:30px;
+}
+
+.copyright
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding-top:16px;
+    background-color: var(--secondary-bg-color);
+    height:50px;
+}
+
+#wix-text>a
+{
+    color:black;
+    text-decoration: underline;
+}

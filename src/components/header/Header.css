@@ -1,0 +1,161 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header 
+{
+    width:100%;
+    
+}
+
+nav li
+{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-top
+{
+    display:grid;
+    grid-template-columns:1fr 1fr ;
+    align-items: center;
+    background-color: var(--tertiary-bg-color);
+    color:var(--secondary-txt-color);
+    height:40px;
+    width:100%;
+    padding-left:30px;
+}
+
+.nav-top>nav, .nav-middle>nav
+{
+    display: grid;
+    justify-items: right;
+    padding-right: 30px;
+}
+
+
+.nav-top a
+{
+    padding-right: 10px;
+    color:var(--secondary-txt-color);
+    text-decoration:underline;
+    padding-right: 40px;
+}
+
+
+.nav-middle
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--primary-bg-color);
+    align-items: center;
+    color:var(--primary-txt-color);
+    height:70px;
+    width:100%;
+    padding-left:30px;
+}
+
+.nav-middle a
+{
+   
+    color:var(--primary-txt-color);
+    padding-right: 40px;
+}
+
+.nav-middle h1
+{
+    font-size: 2.5rem;
+}
+
+.nav-bottom
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    background-color: var(--secondary-bg-color);
+    color:var(--primary-txt-color);
+    align-items: center;
+    height:45px;
+    width:100%;
+    padding-left:30px;
+    
+}
+
+.nav-bottom a
+{
+    padding-right: 10px;
+    color:var(--primary-txt-color);
+    text-decoration: none;
+    padding-right:30px;
+}
+
+.nav-icon
+{
+    font-size: 2rem;
+}
+
+#call-us-txt
+{
+    text-decoration: none;
+}
+
+#chat
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: right;
+    vertical-align:bottom;
+}
+
+.fa-comment
+{
+    position: fixed;
+    bottom:0;
+    right:0;
+    padding: 0 20px 20px 0;
+    color:red;
+    font-size:4rem;
+}
+
+#techshed
+{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.search-container input
+{
+    background-color:var(--secondary-bg-color);
+    width: 250px;
+    height:40px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px;
+    border-style:solid;
+    border-color: var(--secondary-bg-color);
+    padding-left: 20px;
+}
+
+.search-container input:hover {
+    background-color:var(--primary-bg-color);
+    border-style:solid;
+    border-color: var(--secondary-btn-bg-color) ;
+  }
+
+.search-container button
+{
+    width:60px;
+    height:40px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+}
+
+.search-container button:hover {
+    background-color:var(--secondary-btn-bg-color);
+    border-style:solid;
+    border-color: var(--secondary-btn-bg-color) ;
+  }
