@@ -2,6 +2,7 @@ import React from 'react';
 import { RiEBike2Line } from "react-icons/ri";
 import { FaBox, FaScroll } from "react-icons/fa";
 import { FiClock } from "react-icons/fi";
+import "../sect-2/SectionTwo.css";
 
 
 const SectionTwo = () => {

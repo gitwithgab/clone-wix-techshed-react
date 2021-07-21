@@ -8,6 +8,7 @@
 header 
 {
     width:100%;
+    position: fixed;
     
 }
 
@@ -36,6 +37,11 @@ nav li
     padding-right: 30px;
 }
 
+.nav-top div
+{
+    display: grid;
+    grid-template-columns: 1fr 16fr;
+}
 
 .nav-top a
 {
@@ -59,10 +65,10 @@ nav li
 }
 
 .nav-middle a
-{
-   
+{  
     color:var(--primary-txt-color);
     padding-right: 40px;
+    text-decoration: none;
 }
 
 .nav-middle h1

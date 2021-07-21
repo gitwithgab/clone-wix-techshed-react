@@ -1,0 +1,20 @@
+/**********BEST PRICE******************/
+.best-price
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 30px 30px 30px;
+    width:auto;
+}
+
+
+
+.best-price>div:nth-child(2)
+{
+    background-color: white;
+    height:100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+

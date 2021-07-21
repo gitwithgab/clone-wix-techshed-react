@@ -10,7 +10,7 @@ const NavMiddle = () => {
             <div className="nav-middle">
                     <div id="techshed">
                         
-                        <h1>TechShed</h1>
+                        <Link to="/"> <h1>TechShed</h1> </Link>
 
                         <div class="search-container">
                             

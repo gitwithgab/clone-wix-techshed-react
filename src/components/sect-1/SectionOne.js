@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionOneCard from "./SectionOneCard";
 import sectionOneData from "./sectionOneData";
-import "../home-section-data/SectionOne.css";
+import "../sect-1/SectionOne.css";
 
 function createCard (sectionOneData) {
     return (

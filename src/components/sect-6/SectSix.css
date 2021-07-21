@@ -1,0 +1,67 @@
+/***********ON SALE ********************/
+.on-sale
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    justify-items: center;
+    background-color: var(--primary-bg-color);
+    margin: 0 30px 30px 30px;
+    height:80vh;
+}
+
+.on-sale h4
+{
+    font-size: 2rem;
+    padding-top: 5%;
+}
+
+.on-sale>div
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.on-sale>div>div
+{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+.on-sale>div>div
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 50px ;
+    row-gap: 15px;
+}
+
+.on-sale img
+{
+    width:150px;
+}
+
+.section-six > div:nth-child(1)
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: red;
+    color:var(--secondary-txt-color);
+    width:25%;
+    height:25px;
+    font-weight: 100;
+}
+
+.section-six > div:nth-child(4)
+{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    color:#7620ff;
+}
+
+.section-six > div:nth-child(4)>div:nth-child(1)
+{
+    text-decoration: line-through;
+}

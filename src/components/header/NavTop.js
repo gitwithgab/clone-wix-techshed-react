@@ -9,10 +9,10 @@ const NavTop = () => {
 
                 <div>
                     
+                    <FaBox />
                     <p>
                         
-                        <FaBox />
-                        Free Shipping for orders over 50$
+                        Free Shipping for orders over $50
 
                     </p>
 
@@ -25,7 +25,7 @@ const NavTop = () => {
                         <li><Link to='/' >About</ Link> </li>
                         <li><Link to='/' >Contact</ Link> </li>
                         <li><Link to='/' >Help Center</ Link> </li>
-                        <li>Call Us <Link to='/'>   <span>123-456-7890</span>   </ Link> </li>
+                        <li> <Link to='/'> Call Us <span>123-456-7890</span>   </ Link> </li>
 
                     </ul>
 

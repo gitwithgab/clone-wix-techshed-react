@@ -5,12 +5,12 @@ import smartphone from "../../assets/img/smartphone.png";
 import earbuds from "../../assets/img/earbuds.png";
 import headset from "../../assets/img/headset.png";
 
-const homeObjThree = [
+const homeObjSix = [
     {
         id:1,
         title:"SALE",
         img:fWatch,
-        description:"Fitboot Inspire Fitness Tracker With Heart Rate Tracking",
+        description:"Space Moon Smartwatch With Charger",
         price:"$85.00",
         salePrice:"$70.00"
     },
@@ -19,25 +19,25 @@ const homeObjThree = [
         id:2,
         title:"SALE",
         img:laptop,
-        description:"JP Gaming Laptop 15.6' Laptop 256GB",
+        description:"OVE Light Space 5G, 128GB",
         price:"$85.00",
         salePrice:"$70.00"
     },
 
     {
         id:3,
-        title:"",
+        title:"SALE",
         img:drone,
-        description:"HKI Tech Quadcopter Drone With 360 Carmera & Controller",
+        description:"Pilated 16' Touch Screen Laptop 24GB Memory",
         price:"$85.00",
-        salePrice:""
+        salePrice:"$70.00"
     },
 
     {
         id:4,
         title:"SALE",
         img:smartphone,
-        description:"Smartphone Z Pixel Max 128GB Unlocked",
+        description:"Turn5 Portable Bluetooth Speaker",
         price:"$85.00",
         salePrice:"$70.00"
     },
@@ -46,20 +46,20 @@ const homeObjThree = [
         id:5,
         title:"SALE",
         img:earbuds,
-        description:"In-ear Noise Cancelling & Isolating Wireless Earbuds",
+        description:"Journey Glass XD Virtual Reality Headset",
         price:"$85.00",
         salePrice:"$70.00"
     },
 
     {
         id:6,
-        title:"",
+        title:"SALE",
         img:headset,
-        description:"Safay GEN 2 256GB VR headset With Touch Controllers",
+        description:"H1C Indoor Wireless 1080p Network Security Camera",
         price:"$85.00",
-        salePrice:""
+        salePrice:"$70.00"
     },
 
 ];
 
-export default homeObjOne;
+export default homeObjSix;

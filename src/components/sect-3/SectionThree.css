@@ -1,0 +1,62 @@
+/***********BEST SELLERS*****************/
+.best-sellers
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    justify-items: center;
+    background-color: var(--primary-bg-color);
+    margin: 0px 30px 30px 30px;
+    height:80vh;
+}
+
+.best-sellers h4
+{
+    font-size: 2rem;
+    padding-top: 5%;
+}
+
+.best-sellers>div
+{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    row-gap: 5px;
+}
+
+.best-sellers>div>div
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 50px ;
+    row-gap: 15px;
+}
+
+.best-sellers img
+{
+    width:150px;
+}
+
+.section-three > div:nth-child(1)
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: red;
+    color:var(--secondary-txt-color);
+    width:25%;
+    height:25px;
+    font-weight: 100;
+}
+
+.section-three > div:nth-child(4)
+{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    color:#7620ff;
+}
+
+.section-three > div:nth-child(4)>div:nth-child(1)
+{
+    text-decoration: line-through;
+}

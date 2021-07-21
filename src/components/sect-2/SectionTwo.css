@@ -1,0 +1,23 @@
+/***********BENEFITS*********************/
+.benefits
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    background-color: var(--primary-bg-color);
+    height:30vh;
+    align-items: center;
+    margin: 0px 30px 30px 30px;
+}
+
+.benefits div
+{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 5px;
+}
+
+.benefits-icon
+{
+    font-size: 2rem;
+}

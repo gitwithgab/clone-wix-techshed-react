@@ -7,14 +7,10 @@
 
 .hero-container
 {
-    background-image: url("../../assets/img/electronics-carousel-1.png");
-    background-size: cover;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    height: 75vh; 
-    width:100%;
     align-items: center;
-    
+    padding-top:150px;
 }
 
 .carousel-photos
@@ -27,26 +23,29 @@
 .hero-container>div:nth-child(1)
 {
     padding-left: 200px;
+    
 }
 
-.hero-container > div > p:nth-child(1)
+.hero-container > div >div
 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
     background-color: red;
     color:var(--secondary-txt-color);
-    width:140px;
+    width:25%;
     height:30px;
     font-weight: 100;
-    padding:5px;
-   
 }
 
 .hero-container h1
 {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .hero-container > div> p
 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 5px;
 }

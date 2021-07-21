@@ -3,18 +3,16 @@
 {
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap:30px;
-    height: 400px;
+    column-gap: 30px;
+    height: 55vh;
     color:var(--secondary-txt-color);
-    margin: 30px 0px 30px 0;
-    margin-bottom:0px;
+    margin: 30px 30px 0px 30px;
 }
 
 .section-one p
 {
     font-weight: 100;
     font-size: 1.5rem;
-    
 }
 
 .section-one h2
@@ -32,19 +30,13 @@
     width: 120px;
     height:35px;
 }
-/*
-.section-one img
-{
-    width:100%;
-    height:auto;
-    z-index: -100;
-    position:relative;
-}*/
 
 .section-one>div
 {
     display: grid;
     grid-template-columns: 1fr;
+    row-gap: 5px;
     align-items: center;
-    padding: 100px 0 0 100px;
+    padding: 15%;
+    
 }
