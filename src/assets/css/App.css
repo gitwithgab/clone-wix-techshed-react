@@ -54,55 +54,6 @@ button
 }
 
 
-
-
-/***********DEALS & JUST IN***************/
-.deals-just-in
-{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap:30px;
-    height: 400px;
-    color:var(--secondary-txt-color);
-    margin: 30px 0 30px 0;
-}
-
-.deals-just-in p
-{
-    font-weight: 100;
-    font-size: 1rem;
-    
-}
-
-.deals-just-in button
-{
-    background-color: var(--secondary-bg-color);
-    color:var(--primary-txt-color);
-    border:solid;
-    border-color: var(--secondary-bg-color);
-    width: 120px;
-    height:35px;
-}
-
-#holiday-deals
-{
-    background-image:url("../img/electronics-column-1.png");
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: 30px;
-}
-
-#just-in
-{
-    background-image:url("../img/electronics-column-2.png");
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-right:30px;
-}
-
-
 /***********BENEFITS*********************/
 .benefits
 {
@@ -110,9 +61,21 @@ button
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     background-color: var(--primary-bg-color);
-    height:150px;
-    padding-top: 50px;
-    margin: 0 30px 30px 30px;
+    height:200px;
+    align-items: center;
+
+}
+
+.benefits div
+{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 5px;
+}
+
+.benefits-icon
+{
+    font-size: 2rem;
 }
 
 

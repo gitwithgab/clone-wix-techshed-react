@@ -1,5 +1,4 @@
 import React from 'react';
-
 import "../hero/Hero.css";
 
 const HeroContainer = () => {
@@ -23,6 +22,7 @@ const HeroContainer = () => {
                         Shop Now
                     </button>
                 </div>
+
             </div>
            
         </>
