@@ -6,10 +6,10 @@ Cloned using HTML and CSS.
 
 ## HOME PAGE
 
-![](assets/img/homepage-readme.png)
+![](src/assets/img/homepage-readme.png)
 
-![](assets/img/homepage-readme2.png)
+![](src/assets/img/homepage-readme2.png)
 
-![](assets/img/homepage-readme3.png)
+![](src/assets/img/homepage-readme3.png)
 
-![](assets/img/homepage-readme4.png)
+![](src/assets/img/homepage-readme4.png)
