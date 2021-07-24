@@ -7,6 +7,10 @@ import SectionThree from "../components/sect-3/SectionThree";
 import SectionFour from "../components/sect-4/SectFour";
 import SectionFive from "../components/sect-5/SectFive";
 import SectionSix from "../components/sect-6/SectSix";
+import SectionSeven from "../components/sect-7/SectSeven";
+import SectionEight from "../components/sect-8/SectEight";
+import SectionNine from "../components/sect-9/SectNine";
+import Footer from "../components/footer/Footer";
 
 const HomePage = () => {
     return (
@@ -32,7 +36,15 @@ const HomePage = () => {
                     
                     <SectionSix />
 
+                    <SectionSeven />
+
+                    <SectionEight />
+
+                    <SectionNine />
+
                 </main>
+
+                <Footer />
 
             </body>
             

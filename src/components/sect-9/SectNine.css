@@ -1,0 +1,34 @@
+
+/***********NEWSLETTER****************/
+.newsletter
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 0 30px 70px 30px;
+    height:270px;
+    background-color: var(--tertiary-txt-color);
+    color:white;
+}
+
+.newsletter h4
+{
+    font-size: 2rem;
+}
+.newsletter input
+{
+    width: 250px;
+    height:40px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px;
+    border-style:solid;
+    border-color: var(--secondary-bg-color);
+    padding-left: 20px;
+}
+
+.newsletter button
+{
+    background-color: black;
+}

@@ -53,90 +53,11 @@ button
     cursor: pointer;
 }
 
-
-/***********TODAY'S SPECIAL**************/
-.todays-special
-{
-    display:grid;
-    grid-template-columns: 1fr;
-    justify-items: left;
-    margin: 0 30px 30px 30px;
-    height:600px;
-    background-image: url("../img/electronics-drone-2.png");
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.todays-special div
+/***********FOOTER******************/
+footer
 {
     background-color: white;
-    width: 50%;
 }
-
-
-/************BRANDS**********************/
-.brands
-{
-    display:grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    margin: 0 30px 30px 30px;
-    height:300px;
-    background-color: var(--primary-bg-color);
-}
-
-.brands h4
-{
-    font-size: 2rem;
-}
-
-.brands>div
-{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    justify-self: center;
-}
-
-.brands img
-{
-    width: 120px;
-}
-
-/***********NEWSLETTER****************/
-.newsletter
-{
-    display:grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    margin: 0 30px 70px 30px;
-    height:270px;
-    background-color: var(--tertiary-txt-color);
-    color:white;
-}
-
-.newsletter h4
-{
-    font-size: 2rem;
-}
-.newsletter input
-{
-    width: 250px;
-    height:40px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius:15px;
-    border-style:solid;
-    border-color: var(--secondary-bg-color);
-    padding-left: 20px;
-}
-
-.newsletter button
-{
-    background-color: black;
-}
-
 
 /***********HELP CENTER*****************/
 .help-center
@@ -144,7 +65,6 @@ button
     display:grid;
     grid-template-columns: 1fr;
     justify-items: left;
-    margin: 30px 30px 30px 30px;
     height:450px;
     background-image: url("../img/electronics-headphones-1.png");
     background-position: right; 
@@ -157,14 +77,6 @@ button
     background-color: black;
     color: white;
     width:40%;
-}
-
-
-/***********FOOTER******************/
-footer
-{
-    background-color: white;
-    margin: 30px 30px 0px 30px;
 }
 
 

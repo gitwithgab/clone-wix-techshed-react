@@ -1,0 +1,27 @@
+/************BRANDS**********************/
+.brands
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 0 30px 30px 30px;
+    height:300px;
+    background-color: var(--primary-bg-color);
+}
+
+.brands h4
+{
+    font-size: 2rem;
+}
+
+.brands>div
+{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-self: center;
+}
+
+.brands img
+{
+    width: 120px;
+}

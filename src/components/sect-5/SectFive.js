@@ -31,7 +31,7 @@ const SectFive = () => {
                                 </h1>
                                 
                                 <h3>
-                                    on selected laptop & tablets brands
+                                    on selected laptop and tablets brands
                                 </h3>
                                 
                                 <p>

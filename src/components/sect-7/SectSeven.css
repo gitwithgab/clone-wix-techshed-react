@@ -1,0 +1,19 @@
+
+/***********TODAY'S SPECIAL**************/
+.todays-special
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: left;
+    margin: 0 30px 30px 30px;
+    
+}
+
+.todays-special>div:nth-child(1)
+{
+    background-color: white;
+    height:100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
