@@ -1,65 +1,93 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
 
 const General = () => {
     return (
         <>
                 <div class="general">
+
                     <div>
+
                         <h5>
                             Store Location
                         </h5>
+
                         <p>
                             500 Terry Francois Street<br/>
                             San Francisco, CA 94158<br/>
                             info@mysite.com<br/>
                             123-456-7890
                         </p>
+
                         <ul id="social-links">
-                            <li><a href="" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            
+                             <li> <Link to='/' > <i class="fab fa-facebook-f"></i> </ Link> </li>
+                             <li> <Link to='/' > <i class="fab fa-instagram"></i> </ Link> </li>
+                             <li> <Link to='/' > <i class="fab fa-twitter"></i> </ Link> </li>
+                             <li> <Link to='/' > <i class="fab fa-youtube"></i> </ Link> </li>
+
                         </ul>
+
                     </div>
+
                     <div id="shop">
+
                         <h5>
                             Shop
                         </h5>
+
                         <ul>
-                            <li><a href="">Shop All</a></li>
-                            <li><a href="">Computers</a></li>
-                            <li><a href="">Tablets</a></li>
-                            <li><a href="">Drones  Cameras</a></li>
-                            <li><a href="">Audio</a></li>
-                            <li><a href="">Mobile</a></li>
-                            <li><a href="">T.V  Home Cinema</a></li>
-                            <li><a href="">Wearable Tech</a></li>
-                            <li><a href="">Sale</a></li>
+
+                            <li> <Link to='/' > Shop All </ Link> </li>
+                            <li> <Link to='/' > Computers </ Link> </li>
+                            <li> <Link to='/' > Tablets </ Link> </li>
+                            <li> <Link to='/' > Drones and Cameras </ Link> </li>
+                            <li> <Link to='/' > Audio </ Link> </li>
+                            <li> <Link to='/' > Mobile </ Link> </li>
+                            <li> <Link to='/' > T.V and Home Cinema </ Link> </li>
+                            <li> <Link to='/' > Wearable Tech </ Link> </li>
+                            <li> <Link to='/' > Sale </ Link> </li>
+                        
                         </ul>
+
                     </div>
+
                     <div id="customer-support">
+
                         <h5>
                             Customer Support
                         </h5>
+
                         <ul>
-                            <li><a href="">Contact Us</a></li>
-                            <li><a href="">Help Center</a></li>
-                            <li><a href="">About Us</a></li>
-                            <li><a href="">Careers</a></li>
+
+                             <li> <Link to='/' > Contact Us </ Link> </li>
+                             <li> <Link to='/' > Help Center </ Link> </li>
+                             <li> <Link to='/' > About Us </ Link> </li>
+                             <li> <Link to='/' > Careers </ Link> </li>
+
                         </ul>
+
                     </div>
+
                     <div>
+
                         <h5>
                             Policy
                         </h5>
+
                         <ul>
-                            <li><a href="">Shipping Returns</a></li>
-                            <li><a href="">Terms Conditions</a></li>
-                            <li><a href="">Payment Methods</a></li>
-                            <li><a href="">FAQ</a></li>
+
+                             <li> <Link to='/' > Shipping Returns </ Link> </li>
+                             <li> <Link to='/' > Terms Conditions </ Link> </li>
+                             <li> <Link to='/' > Payment Methods </ Link> </li>
+                             <li> <Link to='/' > FAQ </ Link> </li>
+     
                         </ul>
+
                     </div>
+
                 </div>
+                
         </>
     )
 }

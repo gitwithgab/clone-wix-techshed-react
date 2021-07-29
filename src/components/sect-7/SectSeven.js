@@ -18,30 +18,38 @@ const SectSeven = () => {
 
                 <div>
 
-                        <p>
-                            Today's Special
-                        </p>
-                        <h3>
-                            Best Arial View in Town
-                        </h3>
-                        <h1>
-                            30% OFF
-                        </h1>
-                        <h3>
-                            on professional camera drones
-                        </h3>
-                        <p>
-                            Limited quantities.<br/>
-                            See product detail pages for availability
-                        </p>
-                        
-                        <BtnShop />
+                        <div>
+                    
+                            <div>
+                                <p>
+                                    Today's Special
+                                </p>
+                            </div>
+
+                            <h3>
+                                Best Arial View in Town
+                            </h3>
+                            <h1>
+                                <span className="thirty-percent">30%</span> OFF
+                            </h1>
+                            <h3>
+                                on professional camera drones
+                            </h3>
+                            <p>
+                                Limited quantities.<br/>
+                                See product detail pages for availability
+                            </p>
+                            
+                            <BtnShop />
+
+                        </div>
 
                 </div>
 
                 <div id="diag-line2">
                                 
                 </div>
+
             </div>
         
         </>

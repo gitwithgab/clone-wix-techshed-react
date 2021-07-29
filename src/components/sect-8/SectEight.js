@@ -16,12 +16,25 @@ const SectEight = () => {
                 </h4>
 
                 <div>
-                    <img src={LogoZodiac} alt="brand logo"></img>
-                    <img src={LogoZoro} alt="brand logo"></img>
-                    <img src={LogoPjk} alt="brand logo"></img>
-                    <img src={LogoGxl} alt="brand logo"></img>
-                    <img src={LogoHorizon} alt="logo"></img>
-                
+                    <div>
+                        <img src={LogoZodiac} alt="brand logo"></img>
+                    </div>
+
+                    <div>
+                        <img src={LogoZoro} alt="brand logo"></img>
+                    </div>
+
+                    <div>
+                        <img src={LogoPjk} alt="brand logo"></img>
+                    </div>
+
+                    <div>
+                        <img src={LogoGxl} alt="brand logo"></img>
+                    </div>
+                    
+                    <div>
+                        <img src={LogoHorizon} alt="logo"></img>
+                    </div>
                 </div>
             </div>
         </>

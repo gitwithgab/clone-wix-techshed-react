@@ -1,0 +1,105 @@
+/***********FOOTER******************/
+footer
+{
+    background-color: white;
+}
+
+/***********HELP CENTER*****************/
+.help-center
+{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.help-center div
+{
+    background-color: black;
+    color: white;
+    height:100%;
+    padding:25%;
+    justify-items: left;
+    align-items: center;
+    padding-left: 20%;
+  
+}
+
+
+/***********ACCEPTED PAYMENTS************/
+.general
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    padding-top: 10%;
+    height:100%;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+ul
+{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.general h5
+{
+    padding-bottom: 20px;
+}
+
+#social-links li 
+{
+    display: inline-block;
+    padding-right: 30px;
+    color:var(--primary-txt-color);
+    list-style: none;
+}
+
+#social-links a
+{
+    color:var(--primary-txt-color);
+    font-size:1rem;
+}
+
+.acc-payments
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items:center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+.acc-payments>p
+{
+    margin: 60px 40px;
+}
+
+.acc-payments img
+{
+    height:50px;
+    width:auto;
+    padding-right:30px;
+}
+
+.copyright
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--secondary-bg-color);
+    min-height:5vh;
+}
+
+#wix-text>a
+{
+    color:black;
+    text-decoration: underline;
+    padding-left: 5px;
+}

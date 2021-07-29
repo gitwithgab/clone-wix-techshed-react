@@ -17,28 +17,34 @@ const SectFive = () => {
                             <div id="diag-line">
                                 
                             </div>
+
+                                                            
+                            <div>
+                                    {/*<h2>Best Price</h2>*/}
+                            </div>
+
                             
                             <div>
+                                <div>
+                                
+                                    <h3>
+                                            Save up to
+                                    </h3>
+                                    
+                                    <h1>
+                                        $150
+                                    </h1>
+                                    
+                                    <h3>
+                                        on selected laptop and tablets brands
+                                    </h3>
+                                    
+                                    <p>
+                                        Terms and conditions apply
+                                    </p>
 
-                                <h3>
-                                        Best Price <br/>
-                                
-                                         Save up to
-                                </h3>
-                                
-                                <h1>
-                                    $150
-                                </h1>
-                                
-                                <h3>
-                                    on selected laptop and tablets brands
-                                </h3>
-                                
-                                <p>
-                                    Terms and conditions apply
-                                </p>
-
-                                <BtnShop />
+                                    <BtnShop />
+                                </div>
 
                              </div>
 

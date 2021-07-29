@@ -13,7 +13,7 @@ const SectNine = () => {
                     Sign up to receive updates on new arrivals and special offers
                 </p>
 
-                <form action="">
+                <form className="newsletter-form" action="">
                     <input type="text" placeholder="Your Email Here" name="email"/>
                     <button type="submit">Subscribe</button>
                 </form>

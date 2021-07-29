@@ -5,6 +5,7 @@
     display:grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    align-items: center;
     margin: 0 30px 70px 30px;
     height:270px;
     background-color: var(--tertiary-txt-color);
@@ -15,9 +16,16 @@
 {
     font-size: 2rem;
 }
+
+.newsletter-form
+{
+   width:30vw;
+
+}
+
 .newsletter input
 {
-    width: 250px;
+    width: 20vw;
     height:40px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -26,9 +34,13 @@
     border-style:solid;
     border-color: var(--secondary-bg-color);
     padding-left: 20px;
+
 }
 
 .newsletter button
 {
     background-color: black;
+    width:10vw;
+
+
 }

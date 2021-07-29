@@ -3,11 +3,14 @@
 {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr;
     background-color: var(--primary-bg-color);
     justify-items: center;
     margin: 0 30px 30px 30px;
-    height:100vh;
-    width:auto;
+    min-height:100vh;
+    width:95vw;
+    padding:5%;
+
 }
 
 .shop-by-category h4
@@ -21,6 +24,8 @@
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 10%;
     justify-items: center;
 }
 
@@ -29,14 +34,23 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    height:100%;
+    width:100%;
 }
+
+.section-four>div:nth-child(1)
+{
+    height:100%;
+}
+
 
 .section-four img
 {
-    height:70%;
-    width:70%;
+    height:100%;
+    width:100%;
     border-radius: 50%;
-    margin: 10%;
+    cursor: pointer;
+
 }
 
 .section-four h6
