@@ -32,11 +32,12 @@
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: center;
-    background-color: red;
+    background-color: #d62e2c;
     color:var(--secondary-txt-color);
-    width:25%;
-    height:30px;
+    width:20%;
+    height:auto;
     font-weight: 100;
+    font-size: 1.2rem;
 }
 
 .hero-container h1

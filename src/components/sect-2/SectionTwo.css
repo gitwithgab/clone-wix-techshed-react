@@ -5,7 +5,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     background-color: var(--primary-bg-color);
-    height:30vh;
+    height:20vh;
     align-items: center;
     margin: 0px 30px 30px 30px;
 }

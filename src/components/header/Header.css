@@ -165,3 +165,38 @@ nav li
     border-style:solid;
     border-color: var(--secondary-btn-bg-color) ;
   }
+
+
+  #chat
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    position: fixed;
+    bottom:1%;
+    right:1%;
+    background-color: red;
+    border-radius: 50%;
+    height:7vh;
+    width: 7vh;
+  }
+
+  #chat>div
+  {
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    font-size:2rem;
+  }
+  
+
+
+/*/ Extra small devices (portrait phones, less than 576px)/*/
+@media (max-width: 575.98px) 
+{
+
+}

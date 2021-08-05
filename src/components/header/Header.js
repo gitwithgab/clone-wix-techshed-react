@@ -4,6 +4,7 @@ import NavMiddle from "../header/NavMiddle";
 import NavBottom from "../header/NavBottom";
 import MobileNav from "../header/MobileNav";
 import  "../header/Header.css";
+import Chat from "../header/Chat";
 
 const Header = () => {
     return (
@@ -14,6 +15,7 @@ const Header = () => {
                 <NavMiddle />
                 <NavBottom />
                 <MobileNav />  
+                <Chat />
                 
             </header>
         </>
