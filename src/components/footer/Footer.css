@@ -8,19 +8,29 @@ footer
 .help-center
 {
     display:grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 3fr;
     align-items: center;
+}
+
+.help-center>div:nth-child(1)
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10%;
+    line-height: 1.5;
+    background-color: black;
+    color: white;
+    height:100%;
+    
 }
 
 .help-center div
 {
-    background-color: black;
-    color: white;
-    height:100%;
-    padding:25%;
+
+    padding:20%;
     justify-items: left;
     align-items: center;
-    padding-left: 20%;
+    padding-left: 15%;
   
 }
 

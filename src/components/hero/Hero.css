@@ -7,10 +7,17 @@
 
 .hero-container
 {
+    background-image: url(../../assets/img/electronics-carousel-1.png);
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    background-position: center;
+    width:100vw;
+    min-height:70vh;
     display:grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    padding-top:150px;
+    padding: 2%;;
+
 }
 
 .carousel-photos
@@ -20,13 +27,17 @@
     object-fit: cover;
 }
 
-.hero-container>div:nth-child(1)
+.hero-container>div
 {
-    padding-left: 200px;
-    
+    padding-left: 20%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10%;
+    line-height: 1.4;
 }
 
-.hero-container > div >div
+.hero-container > div >div:nth-child(1)
 {
     display: grid;
     grid-template-columns: 1fr;
@@ -34,7 +45,7 @@
     align-items: center;
     background-color: #d62e2c;
     color:var(--secondary-txt-color);
-    width:20%;
+    width:120px;
     height:auto;
     font-weight: 100;
     font-size: 1.2rem;
@@ -42,11 +53,32 @@
 
 .hero-container h1
 {
-    font-size: 3rem;
+    font-size: 3.2rem;
+    letter-spacing: 1px;
 }
 
 .hero-container > div> p
 {
     font-size: 1rem;
-    margin-bottom: 5px;
+    margin-bottom: 5px;    
+    letter-spacing: 1px;
+}
+
+.hero-container > div>button
+{
+    width:180px;
+    height:250%;
+}
+
+/*/ Medium devices (tablets, less than 992px)/*/
+
+@media (max-width: 991.98px) 
+{
+
+}
+
+/*/ Extra small devices (portrait phones, less than 576px)/*/
+@media (max-width: 575.98px) 
+{
+
 }

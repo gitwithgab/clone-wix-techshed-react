@@ -6,7 +6,7 @@ const BtnShop = () => {
        
         <>
             <div>
-                  <Link to='/'> <button>  View All </button>  </Link>
+                  <Link to='/'> <button>  Shop </button>  </Link>
            </div>
         </>
         

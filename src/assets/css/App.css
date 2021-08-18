@@ -42,12 +42,12 @@ button
     background-color: var(--primary-btn-bg-color);
     color: var(--secondary-txt-color);
     font-weight: 100;
-    width: 140px;
+    width: 200px;
     height:40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 30px;
     border-style:solid ;
     border-color: var(--primary-btn-bg-color);
     cursor: pointer;

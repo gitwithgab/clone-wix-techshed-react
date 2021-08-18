@@ -12,6 +12,15 @@
     color:white;
 }
 
+.newsletter>div
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 25%;
+
+}
+
 .newsletter h4
 {
     font-size: 2rem;
@@ -41,6 +50,4 @@
 {
     background-color: black;
     width:10vw;
-
-
 }

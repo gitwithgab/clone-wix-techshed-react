@@ -9,8 +9,9 @@ const SectionOne = (props) => {
                          style={{ backgroundImage: `url(${props.bgImg})`, 
                          backgroundRepeat: 'no-repeat',
                          backgroundSize: 'cover',
+                         backgroundPosition: 'center',
                          width:'100%',
-                         height:'50vh'
+                         height:'40vh'
                          }}>
                             <div>
                                 <p> {props.title}</p>
@@ -25,10 +26,6 @@ const SectionOne = (props) => {
                             </div>
 
                     </div>
-
-                  
-                
-           
                     
  
         </>

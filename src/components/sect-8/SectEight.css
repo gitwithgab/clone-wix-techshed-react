@@ -20,6 +20,7 @@
     display:grid;
     grid-template-columns: repeat(5,1fr);
     justify-self: center;
+    width:85%;
 }
 
 .brands>div div

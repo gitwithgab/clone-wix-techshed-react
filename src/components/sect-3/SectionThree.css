@@ -5,15 +5,16 @@
     grid-template-columns: 1fr;
     row-gap: 10px;
     justify-items: center;
+    align-items: center;
     background-color: var(--primary-bg-color);
     margin: 0px 30px 30px 30px;
-    height:80vh;
+    height:60vh;
 }
 
 .best-sellers h4
 {
     font-size: 2rem;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 .best-sellers>div
@@ -29,13 +30,11 @@
 {
     display:grid;
     grid-template-columns: 1fr;
-
     grid-template-rows: 50px 1fr 50px ;
     row-gap: 15px;
     border-style: solid;
-    border-width: 0.1em;
-    border-color: lightgrey;
-
+    border-width: 0.1rem;
+    border-color: #edecec;
 }
 
 .best-sellers img
@@ -43,7 +42,15 @@
     width:150px;
 }
 
+.best-sellers > button
+{
+    width:400px;
+}
 
+.section-three
+{
+    cursor: pointer;
+}
 
 .section-three > div:nth-child(1)
 {
@@ -51,11 +58,23 @@
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: center;
-    background-color: red;
+    background-color: #d62e2c;
     color:var(--secondary-txt-color);
-    width:25%;
-    height:25px;
+    width:30%;
+    height:30px;
     font-weight: 100;
+}
+
+.section-three > div:nth-child(2)
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.section-three > div:nth-child(3)
+{
+    padding:2%;
 }
 
 .section-three > div:nth-child(4)
@@ -63,6 +82,8 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     color:#7620ff;
+    padding:2%;
+    padding-bottom: 10%;
 }
 
 .section-three > div:nth-child(4)>div:nth-child(1)

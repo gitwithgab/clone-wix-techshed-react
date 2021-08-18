@@ -3,12 +3,12 @@
 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 20% 60%;
+    align-items: center;
     background-color: var(--primary-bg-color);
-    justify-items: center;
     margin: 0 30px 30px 30px;
-    min-height:100vh;
-    width:95vw;
+    width:auto;
+    height:75vh;
     padding:5%;
 
 }
@@ -16,7 +16,9 @@
 .shop-by-category h4
 {
     font-size: 2rem;
-    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
 
 
@@ -24,9 +26,10 @@
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    column-gap: 40px;
+    column-gap: 5%;
     row-gap: 10%;
     justify-items: center;
+    align-items: center;
 }
 
 .section-four
@@ -34,23 +37,15 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    height:100%;
-    width:100%;
-}
-
-.section-four>div:nth-child(1)
-{
-    height:100%;
+    cursor: pointer;
 }
 
 
 .section-four img
 {
-    height:90%;
-    width:100%;
+    height:200px;
+    width:auto;
     border-radius: 50%;
-    cursor: pointer;
-
 }
 
 .section-four h6

@@ -8,23 +8,16 @@ const SectSeven = () => {
     return (
         <>
             
-            <div className="todays-special"
-                style={{ backgroundImage: `url(${TodayBg})`, 
-                backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover',
-                width:'95%',
-                height:'75vh'
-             }}>
+            <div className="todays-special">
 
                 <div>
 
                         <div>
                     
-                            <div>
-                                <p>
-                                    Today's Special
-                                </p>
-                            </div>
+                            <p className="ts-text">
+                                Today's Special
+                            </p>
+                           
 
                             <h3>
                                 Best Arial View in Town
@@ -46,7 +39,13 @@ const SectSeven = () => {
 
                 </div>
 
-                <div id="diag-line2">
+                <div id="diag-line2" style={{ backgroundImage: `url(${TodayBg})`, 
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                width:'100%',
+                height:'40vh'
+                }}>
                                 
                 </div>
 

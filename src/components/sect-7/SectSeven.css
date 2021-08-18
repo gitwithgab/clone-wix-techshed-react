@@ -3,17 +3,15 @@
 .todays-special
 {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     justify-items: left;
     margin: 0 30px 30px 30px;
-    
 }
 
 .todays-special>div:nth-child(1)
 {
     background-color: white;
-    height:100%;
-    width:70%;
+    width:100%;
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
@@ -24,25 +22,30 @@
 {
     display: grid;
     grid-template-columns: 1fr;
-    width:60%;
-    height:60%;
+    row-gap: 5%;
+    
 }
 
-.todays-special>div:nth-child(1)>div>div:nth-child(1)
+.ts-text
 {
-    background-color: red;
-    width:50%;
-    height:80%;
+    background-color: #d62e2c;
+    color: white;
+    width:145px;
+    height:auto;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: center;
 }
 
-
-.todays-special>div:nth-child(1)>div>div:nth-child(1)>p
+.todays-special>div>div:nth-child(1)
 {
-    color: white;
+    font-size: 1.2rem;
+}
+
+.todays-special>div>div:nth-child(1)>h1
+{
+    font-size: 4rem;
 }
 
 .thirty-percent

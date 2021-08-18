@@ -4,7 +4,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 30px;
-    height: 55vh;
+    height: 100%;
     color:var(--secondary-txt-color);
     margin: 30px 30px 0px 30px;
 }
@@ -17,7 +17,7 @@
 
 .section-one h2
 {
-    font-weight: 100;
+    font-weight: 600;
     font-size: 3rem;
 }
 
@@ -31,12 +31,19 @@
     height:35px;
 }
 
+.section-one
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+
+}
 .section-one>div
 {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 5px;
+    row-gap: 10%;
     align-items: center;
-    padding: 15%;
+    padding:10%;
     
 }

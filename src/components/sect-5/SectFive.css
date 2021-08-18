@@ -15,16 +15,14 @@
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
-    
 }
 
 .best-price>div:nth-child(3)>div
 {
     display: grid;
     grid-template-columns: 1fr;
+    row-gap: 5%;
     width:60%;
-    height:50%;
-
 }
 
 /*

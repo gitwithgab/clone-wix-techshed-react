@@ -10,8 +10,8 @@ const SectFive = () => {
                         style={{ backgroundImage: `url(${BestBg})`, 
                         backgroundRepeat: 'no-repeat',
                         backgroundSize: 'cover',
-                        width:'95%',
-                        height:'70vh'
+                        backgroundPosition: 'center',
+                        height:'40vh'
                      }}>
 
                             <div id="diag-line">

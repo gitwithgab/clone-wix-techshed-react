@@ -4,12 +4,7 @@ import HelpBg from "../../assets/img/electronics-headphones-1.png"
 const HelpCenter = () => {
     return (
         <>
-            <div className="help-center"
-                    style={{ backgroundImage: `url(${HelpBg})`, 
-                    backgroundRepeat: 'no-repeat',
-                    backgroundSize: 'cover',
-                    width:'100%',
-                    height:'60vh'}}>
+            <div className="help-center">
 
                     <div>
                             <h3>
@@ -21,6 +16,15 @@ const HelpCenter = () => {
                                 and edit me. Let your users get to know you.
                             </p>
                             <button>Go to Help Center</button>
+                    </div>
+
+                    <div style={{ backgroundImage: `url(${HelpBg})`, 
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        width:'100%',
+                        height:'30vh'}}>
+                        
                     </div>
         
             </div>
