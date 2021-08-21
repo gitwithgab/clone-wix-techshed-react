@@ -44,7 +44,7 @@ const SectSeven = () => {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 width:'100%',
-                height:'40vh'
+                minHeight:'50vh'
                 }}>
                                 
                 </div>

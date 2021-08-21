@@ -14,7 +14,7 @@ const SectFive = () => {
                                 backgroundSize: 'cover',
                                 backgroundPosition: 'center',
                                 widht:'100%',
-                                height:'40vh'
+                                minHeight:'40vh'
                             }}>
                                 
                             </div>

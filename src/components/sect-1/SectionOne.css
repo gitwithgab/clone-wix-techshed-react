@@ -4,7 +4,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 30px;
-    height: 100%;
+    min-height: 100%;
     color:var(--secondary-txt-color);
     margin: 30px 30px 0px 30px;
 }
@@ -45,7 +45,7 @@
     row-gap: 10%;
     align-items: center;
     padding:10%;
-    
+    height:100%;
 }
 
 

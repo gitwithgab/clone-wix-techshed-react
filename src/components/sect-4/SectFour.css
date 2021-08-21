@@ -8,8 +8,8 @@
     background-color: var(--primary-bg-color);
     margin: 0 30px 30px 30px;
     width:auto;
-    height:75vh;
-    padding:5%;
+    min-height:100vh;
+   
 }
 
 .shop-by-category h4
@@ -18,6 +18,8 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    align-items: center;
+    height:100%;
 }
 
 
@@ -25,10 +27,12 @@
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    min-height:100vh;
     column-gap: 5%;
-    row-gap: 10%;
+    row-gap: 0%;
     justify-items: center;
     align-items: center;
+    padding:5%;
 }
 
 .section-four

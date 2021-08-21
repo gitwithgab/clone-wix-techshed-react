@@ -6,6 +6,7 @@
     grid-template-columns: 1fr 2fr;
     justify-items: left;
     margin: 0 30px 30px 30px;
+    min-height:50vh;
 }
 
 .todays-special>div:nth-child(1)
@@ -22,9 +23,8 @@
 {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 5%;
-   
-    
+    height:100%;
+    padding:5%;
 }
 
 .ts-text

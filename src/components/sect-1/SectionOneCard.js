@@ -11,7 +11,8 @@ const SectionOne = (props) => {
                          backgroundSize: 'cover',
                          backgroundPosition: 'center',
                          width:'100%',
-                         height:'40vh'
+                         minHeight:'50vh',
+                         padding:'5%'
                          }}>
                             <div>
                                 <p> {props.title}</p>
