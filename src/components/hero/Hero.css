@@ -45,7 +45,7 @@
     background-color: #d62e2c;
     color:var(--secondary-txt-color);
     width:120px;
-    height:auto;
+    height:100%;
     font-weight: 100;
     font-size: 1.2rem;
 }
@@ -103,5 +103,8 @@
 /*/ Extra small devices (portrait phones, less than 576px)/*/
 @media (max-width: 575.98px) 
 {
-
+    .hero-container h1
+    {
+        font-size: 2rem;
+    }
 }

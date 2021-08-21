@@ -172,5 +172,21 @@ ul
 /*/ Extra small devices (portrait phones, less than 576px)/*/
 @media (max-width: 575.98px) 
 {
+    .acc-payments>div
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+
+    .copyright
+    {
+        font-size: 0.8rem;
+    }
+
+    .acc-payments>p{
+        text-align: center;
+    }
+    
 
 }

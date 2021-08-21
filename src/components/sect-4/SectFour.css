@@ -9,7 +9,7 @@
     margin: 0 30px 30px 30px;
     width:auto;
     min-height:100vh;
-   
+
 }
 
 .shop-by-category h4
@@ -90,5 +90,26 @@
 /*/ Extra small devices (portrait phones, less than 576px)/*/
 @media (max-width: 575.98px) 
 {
+
+    .shop-by-category
+    {
+
+        width:auto;
+        height:1000px;
+    
+    }
+
+    .shop-by-category>div
+    {
+        row-gap: 0%;
+        height:10%;
+        width:100%;
+    }
+    .section-four img
+    {
+        height:150px;
+        width:auto;
+        border-radius: 50%;
+    }
 
 }

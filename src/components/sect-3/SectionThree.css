@@ -136,4 +136,8 @@
 @media (max-width: 575.98px) 
 {
 
+    .best-sellers>div>div
+    {
+        width:100%;
+    }
 }
