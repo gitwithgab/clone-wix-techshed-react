@@ -27,9 +27,9 @@
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    min-height:100vh;
+    min-height:100%;
     column-gap: 5%;
-    row-gap: 0%;
+    row-gap: 5%;
     justify-items: center;
     align-items: center;
     padding:5%;
