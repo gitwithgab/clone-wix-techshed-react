@@ -6,23 +6,20 @@ import BtnShop from "../buttons/BtnShop";
 const SectFive = () => {
     return (
         <>
-                    <div className="best-price"
-                        style={{ backgroundImage: `url(${BestBg})`, 
-                        backgroundRepeat: 'no-repeat',
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                        height:'40vh'
-                     }}>
+                    <div className="best-price">
 
-                            <div id="diag-line">
+                            <div id="diag-line" 
+                                style={{ backgroundImage: `url(${BestBg})`, 
+                                backgroundRepeat: 'no-repeat',
+                                backgroundSize: 'cover',
+                                backgroundPosition: 'center',
+                                widht:'100%',
+                                height:'40vh'
+                            }}>
                                 
                             </div>
 
                                                             
-                            <div>
-                                    {/*<h2>Best Price</h2>*/}
-                            </div>
-
                             
                             <div>
                                 <div>

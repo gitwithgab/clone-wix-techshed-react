@@ -2,6 +2,7 @@
 footer
 {
     background-color: white;
+    line-height: 2;
 }
 
 /***********HELP CENTER*****************/
@@ -21,7 +22,6 @@ footer
     background-color: black;
     color: white;
     height:100%;
-    
 }
 
 .help-center div
@@ -39,10 +39,24 @@ footer
 .general
 {
     display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    padding-top: 10%;
+}
+.general>div
+{
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
-    padding-top: 10%;
     height:100%;
+    padding-bottom: 5%;
+}
+
+.general>div
+{
+    border-bottom: solid 0.1rem #edecec;
+    width:90%;
 }
 
 a
@@ -57,17 +71,17 @@ ul
     text-decoration: none;
 }
 
-.general h5
+.general h4
 {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
-#social-links li 
+#social-links
 {
-    display: inline-block;
-    padding-right: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: left;
     color:var(--primary-txt-color);
-    list-style: none;
 }
 
 #social-links a
@@ -112,4 +126,51 @@ ul
     color:black;
     text-decoration: underline;
     padding-left: 5px;
+}
+
+
+/*/ Medium devices (tablets, less than 992px)/*/
+
+@media (max-width: 1380px) 
+{
+    .help-center
+    {
+        grid-template-columns: 1fr;
+    }
+    
+    .help-center>div:nth-child(1)
+    {
+        justify-items: center; 
+    }
+    
+    .general>div
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        justify-items: center;
+        text-align: center;
+        height:100%;
+    }
+
+    .acc-payments>div
+    {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-items: center;
+    }
+
+    #social-links
+    {
+
+        justify-items: center;
+
+    }
+
+}
+
+/*/ Extra small devices (portrait phones, less than 576px)/*/
+@media (max-width: 575.98px) 
+{
+
 }

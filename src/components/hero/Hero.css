@@ -16,8 +16,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    padding: 2%;;
-
+    padding: 2%;
 }
 
 .carousel-photos
@@ -70,11 +69,35 @@
     height:250%;
 }
 
+.mobile-hero
+{
+    display: none;
+}
+
 /*/ Medium devices (tablets, less than 992px)/*/
 
-@media (max-width: 991.98px) 
+@media (max-width: 1380px) 
 {
+    .hero-container
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        background-image: none;
+        width:100vw;
+       
+        padding-left: 0;
+        padding-top: 155px;
+    }
 
+    .hero-container div
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        padding-left: 0;
+    }
 }
 
 /*/ Extra small devices (portrait phones, less than 576px)/*/

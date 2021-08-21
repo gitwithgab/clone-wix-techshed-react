@@ -9,7 +9,6 @@ header
 {
     width:100%;
     position: fixed;
-    
 }
 
 nav li
@@ -203,10 +202,18 @@ nav li
 
 @media (max-width: 1112px) 
 {
+
+    header
+    {
+        background-color: white;
+        padding:2%;
+    }
+
     .nav-top, .nav-middle, .nav-bottom, #chat
     {
         display:none;
     }
+
 
     .mobile-navigation
     {
@@ -216,13 +223,26 @@ nav li
         justify-items: center;
     }
 
+    .mobile-techshed
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        width:auto;
+    }
+
+    .mobile-techshed>div:nth-child(2)
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     .mobile-icon
     {
         font-size:2rem;
         cursor:pointer;
-        top:0;
+        top:5%;
         right:5%;
-        position:absolute;
         display:block;
         z-index:999;  
     }

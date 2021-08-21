@@ -38,17 +38,19 @@ const MobileNavigation = () => {
 
                 </div>
 
-                <div id="mobile-techshed">
+                <div className="mobile-techshed">
 
                     <div>
                         
                         <Link to="/"> <h1>TechShed</h1> </Link>
 
-                        <Link to='/' > <BiCart className="nav-icon"/> 0 </ Link> 
+
 
                     </div>
 
                     <div>
+
+                        <Link to='/' > <BiCart className="nav-icon"/> 0 </ Link> 
 
                         {open ? closeIcon : hamburgerIcon}
 

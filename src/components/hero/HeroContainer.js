@@ -1,5 +1,6 @@
 import React from 'react';
 import "../hero/Hero.css";
+import MobileHero from "../../assets/img/electronics-carousel-1.png"
 
 const HeroContainer = () => {
 
@@ -26,6 +27,8 @@ const HeroContainer = () => {
                         Shop Now
                     </button>
                 </div>
+
+  
 
             </div>
            

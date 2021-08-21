@@ -90,3 +90,49 @@
 {
     text-decoration: line-through;
 }
+
+/*/ Medium devices (tablets, less than 992px)/*/
+
+@media (max-width: 1380px) 
+{
+
+    .best-sellers
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        justify-items: center;
+        align-items: center;
+        background-color: var(--primary-bg-color);
+        margin: 0px 0px 30px 0px;
+        height:100%;
+        padding:5%;
+    }
+
+    .best-sellers>div
+    {
+        display:grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        width:90%;
+        padding:5%;
+    }
+
+    .best-sellers>div>div
+    {
+        display:grid;
+        grid-template-columns: 1fr;
+        width:50%;
+        border-style: solid;
+        border-width: 0.1rem;
+        border-color: #edecec;
+        margin-bottom:15px;
+    }
+}
+
+/*/ Extra small devices (portrait phones, less than 576px)/*/
+@media (max-width: 575.98px) 
+{
+
+}

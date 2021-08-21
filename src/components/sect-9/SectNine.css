@@ -29,7 +29,6 @@
 .newsletter-form
 {
    width:30vw;
-
 }
 
 .newsletter input
@@ -43,11 +42,56 @@
     border-style:solid;
     border-color: var(--secondary-bg-color);
     padding-left: 20px;
-
 }
 
 .newsletter button
 {
     background-color: black;
     width:10vw;
+}
+
+/*/ Medium devices (tablets, less than 992px)/*/
+
+@media (max-width: 1380px) 
+{
+
+    .newsletter
+    {
+        margin: 0 0px 70px 0px;
+        height:350px;
+       
+    }
+    .newsletter-form
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        justify-items: center;
+       width:100%;
+    }
+
+    .newsletter input
+    {
+        width: 80%;
+        height:40px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius:20px;
+        border-style:solid;
+        border-color: var(--secondary-bg-color);
+        padding-left: 20px;
+    }
+
+    .newsletter button
+    {
+        
+        width:80%;
+    }
+}
+
+/*/ Extra small devices (portrait phones, less than 576px)/*/
+@media (max-width: 575.98px) 
+{
+
 }

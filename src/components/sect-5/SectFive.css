@@ -2,12 +2,13 @@
 .best-price
 {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     margin: 0 30px 30px 30px;
     width:auto;
+
 }
 
-.best-price>div:nth-child(3)
+.best-price>div:nth-child(2)
 {
     background-color: white;
     height:100%;
@@ -47,3 +48,40 @@
     justify-items: center;
 }
 
+.best-price>div:nth-child(2)>div
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5%;
+}
+
+/*/ Medium devices (tablets, less than 992px)/*/
+
+@media (max-width: 1380px) 
+{
+    .best-price
+    {
+        display:grid;
+        grid-template-columns: 1fr;
+        margin: 0 0px 30px 0px;
+        width:auto;
+    }
+
+    .best-price>div:nth-child(2)
+    {
+        min-height:40vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: left;
+        padding:10%;   
+    }
+
+
+}
+
+/*/ Extra small devices (portrait phones, less than 576px)/*/
+@media (max-width: 575.98px) 
+{
+
+}

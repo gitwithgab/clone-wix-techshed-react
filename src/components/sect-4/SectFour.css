@@ -10,7 +10,6 @@
     width:auto;
     height:75vh;
     padding:5%;
-
 }
 
 .shop-by-category h4
@@ -51,4 +50,41 @@
 .section-four h6
 {
     font-size: 1rem;
+}
+
+/*/ Medium devices (tablets, less than 992px)/*/
+
+@media (max-width: 1380px) 
+{
+
+    .shop-by-category
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 90%;
+        justify-items: center;
+        align-items: center;
+        background-color: var(--primary-bg-color);
+        margin: 0 0px 30px 0px;
+        height:1800px;
+        padding:0%;
+    }
+
+    .shop-by-category>div
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5%;
+        row-gap: 5%;
+        justify-items: center;
+        align-items: center;
+        height:100%;
+    }
+
+}
+
+/*/ Extra small devices (portrait phones, less than 576px)/*/
+@media (max-width: 575.98px) 
+{
+
 }
