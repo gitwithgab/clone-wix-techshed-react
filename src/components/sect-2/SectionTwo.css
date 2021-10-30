@@ -5,7 +5,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     background-color: var(--primary-bg-color);
-    height:20vh;
+    height:16vh;
     align-items: center;
     margin: 30px 30px 30px 30px;
 }
@@ -22,7 +22,7 @@
     font-size: 2rem;
 }
 
-@media (max-width: 1380px) 
+@media (max-width: 991.98px) 
 {
     .benefits
     {

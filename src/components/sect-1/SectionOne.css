@@ -12,7 +12,7 @@
 .section-one p
 {
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .section-one h2
@@ -27,8 +27,17 @@
     color:var(--primary-txt-color);
     border:solid;
     border-color: var(--secondary-bg-color);
-    width: 120px;
-    height:35px;
+    width: 130px;
+    height:38px;
+    font-size: 1rem;
+}
+
+.section-one button:hover
+{
+    background-color: transparent;
+    color:white;
+    border:solid 1px;
+    border-color: white;
 }
 
 .section-one
@@ -36,6 +45,7 @@
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
+    height: 60vh;
 }
 
 .section-one>div
@@ -45,7 +55,7 @@
     row-gap: 8%;
     align-items: center;
     padding:10%;
-   
+    width:50%;
 }
 
 

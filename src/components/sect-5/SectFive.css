@@ -45,13 +45,30 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+
 }
 
 .best-price>div:nth-child(2)>div
 {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 5%;
+    row-gap: 10%;
+    width:60%;
+    font-size: 1.2rem;
+}
+
+.best-price button
+{
+    width:150px;
+    height:48px;
+    border:none;
+}
+
+.best-price button:hover
+{
+    background-color:transparent;
+    color:black;
+
 }
 
 /*/ Medium devices (tablets, less than 992px)/*/

@@ -43,9 +43,17 @@
     width:150px;
 }
 
-.best-sellers > button
+.best-sellers button
 {
-    width:400px;
+    width:250px;
+    height:50px;
+    border: solid 1px;
+    border-color: white;
+}
+
+.best-sellers button:hover
+{
+    background-color: black;
 }
 
 .section-three

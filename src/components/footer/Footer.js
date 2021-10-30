@@ -20,10 +20,14 @@ const Footer = () => {
 
                     <p>
                         &copy; 2023 by TechShed. Proudly created with  
-                        <span id="wix-text">
+                        <span id="underline-text">
                             <Link to='/' >Wix.com</ Link> 
                         </span>
                             
+                    </p>
+
+                    <p>
+                        Return to <span id="portfolio-text"><a href= 'https://gabriellepantin.com' rel="noreferrer noopener" target="_blank">www.gabriellepantin.com</a></span>
                     </p>
 
                 </div>

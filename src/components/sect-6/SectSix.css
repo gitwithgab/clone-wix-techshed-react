@@ -48,6 +48,17 @@
     width:150px;
 }
 
+.on-sale button
+{
+    height:45px;
+}
+
+.on-sale button:hover
+{
+    background-color: black;
+    border-color: white;
+}
+
 .section-six
 {
     cursor: pointer;

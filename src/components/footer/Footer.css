@@ -31,7 +31,20 @@ footer
     justify-items: left;
     align-items: center;
     padding-left: 15%;
-  
+}
+
+.help-center button
+{
+    width:180px;
+    height:45px;
+    font-size:1rem;
+}
+
+.help-center button:hover
+{
+    background-color: white;
+    color: black;
+    border: none;
 }
 
 
@@ -121,11 +134,16 @@ ul
     min-height:5vh;
 }
 
-#wix-text>a
+#underline-text
 {
     color:black;
     text-decoration: underline;
     padding-left: 5px;
+}
+
+#portfolio-text
+{
+    font-weight: 800;
 }
 
 

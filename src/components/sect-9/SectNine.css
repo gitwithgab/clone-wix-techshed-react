@@ -48,7 +48,20 @@
 {
     background-color: black;
     width:10vw;
+    height:40px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-style:solid;
+    border-color: black;
 }
+
+.newsletter button:hover
+{
+    background-color: #d1b4ff;
+    border-style:solid;
+    border-color: #d1b4ff;
+}
+
 
 /*/ Medium devices (tablets, less than 992px)/*/
 
@@ -85,9 +98,12 @@
 
     .newsletter button
     {
-        
-        width:80%;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius:30px;
+        width:200px;
     }
+
+
 }
 
 /*/ Extra small devices (portrait phones, less than 576px)/*/
