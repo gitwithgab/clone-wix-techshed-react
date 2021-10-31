@@ -27,7 +27,7 @@ const Footer = () => {
                     </p>
 
                     <p>
-                        Return to <span id="portfolio-text"><a href= 'https://gabriellepantin.com' rel="noreferrer noopener" target="_blank">www.gabriellepantin.com</a></span>
+                        Return to <span id="portfolio-text"><a href= 'https://gabriellepantin.com/#projects'>www.gabriellepantin.com</a></span>
                     </p>
 
                 </div>
